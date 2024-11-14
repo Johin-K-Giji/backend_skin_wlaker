@@ -1,0 +1,42 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.env
+
+# Flask-related
+instance/
+.venv/
+env/
+venv/
+*.egg-info/
+*.egg
+
+# IDE-related (optional, depending on your development environment)
+.vscode/
+.idea/
+
+# OS-specific files (optional)
+.DS_Store
+Thumbs.db
+
+# Database (optional)
+*.sqlite3
+*.db
+
+# Flask migrations folder (if using Flask-Migrate)
+migrations/
+
+# Coverage directory (if using coverage.py)
+.coverage
+.tox/
+.nox/
+*.coverage
+*.hypothesis/
+
+# MySQL database dump (if applicable)
+*.sql
